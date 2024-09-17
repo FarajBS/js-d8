@@ -1,3 +1,5 @@
+<script>if(typeof(sessionStorage.getItem("userName")) == "string"){window.location="login.html"}</script>
+
 <!doctype html>
 <html lang="en">
     <head>
@@ -21,11 +23,11 @@
                     <h1 class="fs-1 fw-bold">Register</h1>
                 </div>
 
-                <div id="answerDiv" class="w-100 h-50 bg-danger mb-3 p-4">
+                <div id="answerDiv" class="w-100 h-50 bg-danger mb-3 p-4 text-danger">
                     <p id="answer"></p>
                 </div>
 
-                <div id="answerDivRig" class="w-100 h-50 bg-danger mb-3 p-4">
+                <div id="answerRight" class="w-100 h-50 mb-3 p-4 bg-success">
                     <p id="answerRig"></p>
                 </div>
 
@@ -51,7 +53,7 @@
 
                 <button type="submit" id="signUp" class="btn form-control text-light">Register</button>
 
-                <div class="mt-3 fs-5 text-center">You Have An Account?<a href="index.html"> <span class="ms-2">Login</span></a></div>
+                <div class="mt-3 fs-5 text-center">Do You Have An Account?<a href="index.html"> <span class="ms-2">Login</span></a></div>
             </div>
         </div>
         <!-- ================================================================================================================================ -->
