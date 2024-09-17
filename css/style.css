@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(143, 134, 206);
+}
+
+h1, h2, h3, h4, h5, h6, p, a, .icon, div {
+    color: rgb(72, 72, 168) !important;
+} 
+
+a {
+    font-weight: 500;
+    text-decoration: none;
+}
+
+::-ms-input-placeholder {
+    text-align: center;
+    color: black;
+    opacity: 0.6 !important;
+}
+  
+::placeholder {
+    text-align: center;
+    color: black;
+    opacity: 0.6 !important;
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container label {
+    color: rgb(72, 72, 168);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.container input {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.container button {
+    background-color: rgb(72, 72, 168);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.container button:hover {
+    background-color: rgb(44, 44, 177);
+}
+
+.container .contSign {
+    background-color: #ddd;
+    border-radius: 10px;
+    width: 60%;
+    position: relative;
+}
+
+.container .contSign .contIcon {
+    background-color: rgb(72, 72, 168);
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.container .contSign h1 {
+    color: rgb(72, 72, 168);
+}
+
+#answerDiv {
+    background-color: rgb(156, 66, 66);
+    border-radius: 10px;
+    border: 2px solid rgb(105, 45, 45);
+    display: none;
+}
+
+#answerDiv #answer, #answerDivRig #answerRig {
+    font-size: 1.2rem;
+    color: #fff !important;
+    text-align: center;
+}
+
+#answerDivRig {
+    background-color: rgb(57, 167, 66);
+    border-radius: 10px;
+    border: 2px solid rgb(13, 87, 29);
+    display: none;
+}
